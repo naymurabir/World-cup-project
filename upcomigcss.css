@@ -99,6 +99,8 @@
 }
 
 
+
+
 .player-transfer .div2 i {
     padding: 10px;
 }
@@ -106,7 +108,7 @@
 .div3 {
     display: grid;
     justify-content: center;
-    background: black;
+    background: #161616;
     height: 280px;
 
 }
@@ -124,6 +126,12 @@ a {
 
 }
 
+hr {
+    border: 2px solid gray;
+
+
+}
+
 
 
 .div3 .footer-part {
@@ -134,98 +142,12 @@ a {
 
 
 .div3 .footer-part h2 {
-    margin: 10px;
+    margin: 8px;
     color: aliceblue;
     font-family: 'Times New Roman', Times, serif;
 
 }
 
-
-@media (max-width:950px) {
-
-    html {
-        font-size: 80%;
-    }
-
-    .section-two {
-        display: flex;
-        flex-direction: column;
-
-
-    }
-
-    .menu .div1 h1 {
-
-        background-color: honeydew;
-        color: #161616;
-        width: 9rem;
-        height: 18px;
-        padding: 10px;
-        border-radius: 10px;
-        display: inline;
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .6);
-        font-family: 'Bebas Neue', cursive;
-
-    }
-
-    .menu .div1 {
-
-        background-color: white;
-        border-radius: 10px;
-        color: aliceblue;
-        padding: 30px;
-        margin-left: 140px;
-
-        margin-top: 85px;
-        width: 55%;
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .6);
-
-
-    }
-
-    .section-two {
-        display: flex;
-    }
-
-
-    .player-transfer {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding-top: 90px;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .player-transfer .div2 {
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-        border-radius: .5rem;
-
-        border-radius: .5rem;
-        padding: 2rem;
-        row-gap: 2rem;
-        padding-left: 2rem;
-        width: 50%;
-
-    }
-
-    .btn {
-        background-color: #DD0000;
-        color: white;
-        display: block;
-        width: 20%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 40px;
-        margin-left: 220px;
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
-
-
-
-}
 
 @media (max-width:500px) {
 

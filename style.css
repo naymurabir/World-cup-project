@@ -1,7 +1,7 @@
 .great-title {
     display: flex;
     height: 70vh;
-    width: 80%;
+    width: 82%;
     background: #161616;
     border-radius: 40px;
     color: #FFFFFF;
@@ -85,9 +85,7 @@
     padding-top: 90px;
 }
 
-.player-transfer.h1 {
-    border: 1px solid gray;
-}
+
 
 .player-transfer.div2 {
     border: 2px solid gray;
@@ -106,7 +104,7 @@
 .div3 {
     display: grid;
     justify-content: center;
-    background: black;
+    background: #161616;
     height: 280px;
 
 }
@@ -135,10 +133,13 @@ a {
 
 .div3 .footer-part h2 {
     margin: 10px;
-    color: aliceblue;
+    color: #B1B1B1;
     font-family: 'Times New Roman', Times, serif;
 
 }
+
+
+
 
 
 @media (max-width:950px) {
